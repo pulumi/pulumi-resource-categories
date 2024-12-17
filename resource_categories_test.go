@@ -20,7 +20,7 @@ func TestGetResourceKind(t *testing.T) {
 		{"azure:appinsights", Observability}, // azure
 		{"kubernetes:apps", Container},       // kubernetes
 		{"cloud:bucket", Storage},            // cloud
-		{"oci:ContainerEngine", Container},   // oci
+		{"oci:ContainerEngine", Container},   // oci: by default uses PascalCase
 		// upper case
 		{"AWS:ACMPCA", Security},
 		{"AZURE:APPINSIGHTS", Observability},
